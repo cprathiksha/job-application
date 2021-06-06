@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  background: gainsboro;
+}
+h1{
+  text-align: center;
+}
+#form1{
+	display: block;
+}
+form{
+ 
+ 
+  margin: 100px auto;
+  font-family: sans-serif;
+  padding: 40px;
+  width: 40%;
+  min-width: 300px;
+  border-radius: 5px;
+
+  position:absolute;
+  transform:translate(75%);
+
+}
+div{
+  padding:5px;
+}
+
+label{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 2%;
+  font-weight: bold;
+}
+input,select{ 
+  padding: 5px;
+  width: 100%;
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  border: 1px solid grey;
+  border-radius: 2px;
+
+}
+input[type=radio]{
+  width:auto;
+  border:1px solid grey;
+  border-radius: 2px;
+}
+#form2,#form3,#form4,#form5,#form6,#form7{
+  display: none;
+}
+input[type=button]{
+
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  font-size: 1.3rem;
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
+  width: 50%;
+  margin: 5px;
+  float: right;
+
+}
+p{
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c3e50;
+}
+p span {
+  font-size: 1.3rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: #2980b9;
+}
+#grad1 {
+  height: 638px;
+  background-color: #003366; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#003366, #00ccff);
+
+}
+#form1, #form2, #form3, #form4, #form5, #form6,#form7{
+  height: 500px;
+  background-color: #66ffff; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#66ffff, #6699ff);
+}
+#form7{
+		overflow:scroll;
+		overflow-x:hidden;
+		
+}
+#nextbtn{
+	background-color:#000066;
+}
+#nextbtn:hover{
+	font-size:27px;
+}
