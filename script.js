@@ -259,10 +259,10 @@ function displayDetail(){
     var proj2 = document.getElementById("proj2").value;
 	var x=document.getElementById("mydate").value;
 
-	document.getElementById("d-username").innerHTML = username;
+    document.getElementById("d-username").innerHTML = username;
     document.getElementById("d-fname").innerHTML = fname;
     document.getElementById("d-lname").innerHTML = lname;
-	document.getElementById("Finaldob").innerHTML = x;
+    document.getElementById("Finaldob").innerHTML = x;
     document.getElementById("d-gender").innerHTML = gender;
     document.getElementById("d-phone").innerHTML = phone;
     document.getElementById("d-address").innerHTML = address;
@@ -271,7 +271,7 @@ function displayDetail(){
     document.getElementById("d-google").innerHTML = gmail;
     document.getElementById("d-ugmarks").innerHTML = ugmarks;
     document.getElementById("d-pgmarks").innerHTML = pgmarks;
-	document.getElementById("d-proj1").innerHTML = proj1;
+    document.getElementById("d-proj1").innerHTML = proj1;
     document.getElementById("d-proj2").innerHTML = proj2;
 }
 
